@@ -1,2 +1,13 @@
-# Orbit--
-An interactive audio creation tool with the concept of "sound playground". It attempts to transform the abstract parameters and linear effector list in traditional audio software into a space that can be observed, touched and moved, making sound processing an intuitive exploration experience. The work transforms filtering, distortion, delay and reverberation into different forms of space objects, and uses flowing particles to show the connection direction of signals. Users change the series order of effectors by moving objects left and right, and adjust the effect intensity by moving objects back and forth. The same sound will produce different textures due to changes in spatial layout, making "placing objects" a process of "shaping sound". The visual design uses dopamine bright color system to create a relaxed and open atmosphere with powder, cyan, fluorescent green and yellow. The design hopes to reduce the unfamiliar feeling of beginners when facing professional audio tools, and encourage users to discover the possibility of sound through dragging, audition and comparison. Orbit supports custom synthetic sound source and local audio import. Users can adjust sound source parameters, build effect chain, observe output level, and export processing results as WAV files.
+# ORBIT Sonic Playground
+
+这是可直接部署到 GitHub Pages 的浏览器版音频效果链游乐场。
+
+## 部署
+
+1. 将 `index.html` 和 `.nojekyll` 上传到 GitHub 仓库根目录，或上传整个 `github-pages` 目录中的内容。
+2. 打开仓库 **Settings → Pages**。
+3. 在 **Build and deployment** 中选择 **Deploy from a branch**。
+4. 选择默认分支和 `/ (root)`，保存。
+5. 等待 GitHub Pages 生成访问地址。
+
+音频在用户自己的浏览器中处理，不会上传到服务器。
